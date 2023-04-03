@@ -1,0 +1,60 @@
+body{
+  background-color: #000000 !important;
+  color: #fff !important;
+}
+
+
+.something{
+  text-align: center;
+}
+.taskBg{
+background-color: #555;
+border-radius: 5px;
+margin: 0 auto;
+margin-top: 20px;
+padding: 10px;
+text-align: left;
+position: relative;
+
+}
+.taskBg div{
+  display: flex;
+  align-items: center;
+}
+
+
+.taskBg .done .taskTest {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.taskNumber{
+  width: 25px;
+  height: 25px;
+  border: 2px solid #101010;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  text-align: center;
+  font-size: 15px;
+  flex: 1;
+}
+
+.iconWrap{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.iconWrap span{
+  display: inline-block;
+  margin: 0 10px 0px 10px;
+  color: #00ff90;
+  cursor: pointer;
+}
+.iconWrap span:hover{
+  color:#ecdb5b;
+}
